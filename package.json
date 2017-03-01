@@ -1,0 +1,27 @@
+{
+  "name": "recopy",
+  "version": "0.1.0",
+  "description": "Copy JSON keys from Redis to another Redis-compatible instance, possibly SSDB.",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "eslint --cache src",
+    "start": "node7 --harmony lib/index.js"
+  },
+  "author": "@evanxsummers",
+  "license": "ISC",
+  "dependencies": {
+    "app-bin": "^0.1.11",
+    "redis-app-rpf": "^0.7.16"
+  },
+  "devDependencies": {
+    "eslint": "^3.12.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/evanx/recopy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/evanx/recopy/issues"
+  },
+  "homepage": "https://github.com/evanx/recopy#readme"
+}
